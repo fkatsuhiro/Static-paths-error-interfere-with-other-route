@@ -1,0 +1,9 @@
+---
+export function getStaticPaths() {
+    throw new Error("static paths error")
+  return [
+    { params: { c: "1", b: "2", a: "3" }}
+  ]
+}
+---
+astro param
